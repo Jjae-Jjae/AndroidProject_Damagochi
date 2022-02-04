@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            >
+            <ImageView
+                android:id="@+id/strImgBack"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="fitXY"
+                />
+
+            <ImageView
+                android:id="@+id/strImgEgg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/scrollback"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/woodplate"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/strBtnNew"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="새로 시작하기"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/strBtnLoad"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="게임 이어 하기"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/strBtnEnd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="게임 종료하기"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:onClick="finish"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

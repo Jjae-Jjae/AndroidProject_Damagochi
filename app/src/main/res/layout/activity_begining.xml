@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키울 알을 선택해 주세요"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:stretchColumns="*"
+        android:background="#ffffff"
+        >
+        <TableRow >
+            <ImageButton
+                android:id="@+id/BegImgEgg0"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+            />
+            <ImageButton
+                android:id="@+id/BegImgEgg1"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+            />
+            <ImageButton
+                android:id="@+id/BegImgEgg2"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+            />
+        </TableRow>
+
+        <TableRow >
+            <ImageButton
+                android:id="@+id/BegImgEgg3"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/BegImgEgg4"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/BegImgEgg5"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                />
+        </TableRow>
+
+        <TableRow >
+            <ImageButton
+                android:id="@+id/BegImgEgg6"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/BegImgEgg7"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                />
+            <ImageButton
+                android:id="@+id/BegImgEgg8"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/qustionegg0"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/begBtnGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="집 으로 가자!"
+        android:textSize="15sp"
+        android:enabled="false"
+        android:textColor="#5F5F5F"
+        android:background="#5F5F5F"
+        />
+</LinearLayout>
